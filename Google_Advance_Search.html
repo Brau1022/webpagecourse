@@ -2,28 +2,61 @@
 <html lang="en">
     <head>
         <title>Search</title>
+
+        <link rel="stylesheet" href="container_center.css">
+
         <style>
-            
-                
-    
+
 		h1{
 			
 			text-align: right;
 			font-size: 15px;	
-			padding-bottom: 100px;		
-		} 
+			padding-bottom: 100px;	
+          
+        } 
 		</style>
         
     </head>
+
     <body>
 
-        <h1><a href="Google_Normal_Search_Home.html"> Go back to Google Search </a></h1>
-        
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Advance Search">
-        </form>
+        <h1><a style="color: black;" href="Google_Normal_Search_Home.html"> Go back to Google Search </a></h1>
+       
+        <table style="width: fit-content;">
+            <td>
+                all these words:
+            </td>
+            <td>
+                this exact word or phrase:
 
+            </td>
+            <td>
+                any of these words:
+
+            </td>
+            <td>    
+                none of these words:
+            </td>
+         
+        </table>
+    
+
+        <div id="busqueda2">
+            <form action="https://www.google.com/search">
+               
+                <input  type="text" name="as_q" style="margin-bottom: 10px; font-size: medium; width: 600px;">
+               
+                <input type="text" name="as_epq" style="margin-bottom: 10px; font-size: medium; width: 600px;">
+                
+                <input type="text" name="as_oq" style="margin-bottom: 10px; font-size: medium; width: 600px;">
+               
+                <input type="text" name="as_eq" style="margin-bottom: 10px; font-size: medium; width: 600px;">
+                <input id="button4" type="submit" value="Advanced Search">
+
+            </form>
+               
+        </div>
+        
         
     </body>
 </html>
