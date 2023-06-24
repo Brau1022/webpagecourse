@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Search</title>
+       <link rel="stylesheet" type="text/css" href="container_center.css">
         <style>
             
                 .tablalink{
@@ -16,14 +17,7 @@
                     padding: 1px;
                     padding-bottom: 150px;
                 }
-                .tablagoogle{
-                    /*border: 2px solid saddlebrown;*/
-                    
-                    margin-top: auto;
-                    margin-bottom: auto;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
+
                 
             </style>
     </head>
@@ -50,8 +44,8 @@
                 margin: auto;
                 margin-bottom: 20px;">
             </thead>
-                <tbody>
-                    <tr>
+                <tbody id="container">
+                    <tr id="button">
                     
                          <form action="https://www.google.com/search">
                          <input  type="text" name="q" style=
@@ -63,25 +57,11 @@
                         margin: auto;
                         margin-bottom: 20px;
                         ">
-                        <input type="submit" value="Google Search" style=
-                        "display: inline-block;
-                        padding: 5px;
-                        top:50%;
-                        left: 50%;
-                        margin-bottom: 20px;
-                        margin: auto;
-                        
-                        ">
+                        <input type="submit" value="Google Search">
                          </form>
                          </tr>
-                      <tr>
-                        <input type="button" value="Im feeling Lucky" style=
-                        "display: inline-block;
-                        align-items: center;
-                        padding: 5px;
-                        margin-bottom: 20px;
-                        margin: auto;
-                        ">
+                      <tr id="button">
+                        <input type="button" value="Im feeling Lucky">
                       </tr>  
                                    
                 </tbody>
