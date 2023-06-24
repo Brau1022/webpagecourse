@@ -1,6 +1,27 @@
-#button{
-    color: aqua;
-    text-align: center;
-    margin: auto;
-    padding: 25px;
+
+    
+
+
+#container{
+
+margin: auto; 
+   width: 800px;
+    text-align: center;  
 }
+
+#button1{
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    display: inline;
+}
+
+#button2{
+    width: 200px;   
+    height: 40px;
+    display: inline;
+    display: inline-block;
+}   
+#barra1{
+    width: 500px;
+    }
