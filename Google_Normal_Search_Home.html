@@ -3,18 +3,88 @@
     <head>
         <title>Search</title>
         <style>
-        
-        </style>
+            
+                .tablalink{
+                    margin-left: auto;
+                }
+                    
+                th{
+                   /* border: 2px solid black;*/
+                    height: 20px;
+                    width: 180px;
+                    font-size: 15px;
+                    padding: 1px;
+                    padding-bottom: 150px;
+                }
+                .tablagoogle{
+                    /*border: 2px solid saddlebrown;*/
+                    
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+            </style>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-            
-        </form>
-        <h1><a href="Google_Image_Search.html">Google Image Search</a></h1>
-        <h1><a href="Google_Advance_Search.html">Google Advance Search</a></h1>
-    
-    
+        <table class="tablalink">
+            <thead>
+                <th>
+                    <a style="color: black;" href="Google_Image_Search.html">Google Image Search</a></h1>
+                </th>
+                <th>
+                    <a style="color: black;" href="Google_Advance_Search.html">Google Advance Search</a></h1>
+                </th>    
+            </thead>
+        </table>
+        
+        <table class="tablagoogle" style=
+        "display: block;
+        margin-top: 500;
+        margin-bottom: 500;
+        ">
+            <thead>
+                <img src="Google_Dominicano.png" alt="Google Image" width="300px" height="100px" style=
+                "display: block;
+                margin: auto;
+                margin-bottom: 20px;">
+            </thead>
+                <tbody>
+                    <tr>
+                    
+                         <form action="https://www.google.com/search">
+                         <input  type="text" name="q" style=
+                        "border-radius: 25px;
+                        padding: 15px;
+                        width: 500px;
+                        height: 2px;
+                        display: block;
+                        margin: auto;
+                        margin-bottom: 20px;
+                        ">
+                        <input type="submit" value="Google Search" style=
+                        "display: inline-block;
+                        padding: 5px;
+                        top:50%;
+                        left: 50%;
+                        margin-bottom: 20px;
+                        margin: auto;
+                        
+                        ">
+                         </form>
+                         </tr>
+                      <tr>
+                        <input type="button" value="Im feeling Lucky" style=
+                        "display: inline-block;
+                        align-items: center;
+                        padding: 5px;
+                        margin-bottom: 20px;
+                        margin: auto;
+                        ">
+                      </tr>  
+                                   
+                </tbody>
+        </table>
     </body>
 </html>
