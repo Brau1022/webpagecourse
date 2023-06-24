@@ -3,11 +3,14 @@
 	<head>
 		<title>Google Image Search</title>
 
+		<link rel="stylesheet" href="container_center.css">
+
 		<style>
 		h1{
 			
 			text-align: right;
-			font-size: 15px;			
+			font-size: 15px;	
+			padding-bottom: 100px;		
 		} 
 		</style>
 	
@@ -16,12 +19,25 @@
 	<body>
 		<h1><a href="Google_Normal_Search_Home.html"> Go back to Google Search </a></h1>
 
-		<form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Image Search">
-			<input hidden="text" name="tbm" value="isch">
-			
-        </form>
+		<div id="container">
+
+			<img src="Google_Dominicano.png" alt="Google Image" width="300px" height="100px" style=
+			"display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 25px;">
+	
+			<form action="https://www.google.com/search">
+				<input id="barra1" type="text" name="q"style=
+				"border-radius: 25px;
+				padding: 15px;
+				height: 2px;
+				">
+				<input id="button3" type="submit" value="Google Image Search">
+				<input hidden="text" name="tbm" value="isch">
+				
+			</form>
+		</div>
 	
 	</body>
 </html>

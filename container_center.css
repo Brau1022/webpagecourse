@@ -3,25 +3,41 @@
 
 
 #container{
-
-margin: auto; 
-   width: 800px;
-    text-align: center;  
+    position: relative;
+    top: 0px;
+   width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+     
 }
 
 #button1{
     width: 200px;
     height: 40px;
-    display: inline-block;
-    display: inline;
+  position: relative;
+  left: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
 }
 
 #button2{
     width: 200px;   
     height: 40px;
-    display: inline;
-    display: inline-block;
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+    border-radius: 10px;
 }   
 #barra1{
     width: 500px;
+    }
+
+#button3{
+    
+    width: 200px;   
+    height: 40px;
+    position: relative;
+    left: 150px;
+    top: 40px;
+    border-radius: 10px;
     }
